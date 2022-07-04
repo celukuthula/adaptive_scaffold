@@ -226,9 +226,7 @@ class _AdaptiveScaffoldState extends State<AdaptiveScaffold> {
                   icon: Icon(
                     d.icon,
                   ),
-                  label: Text(
-                    d.title,
-                  ),
+                  label: d.title,
                 ),
               ),
         ],
